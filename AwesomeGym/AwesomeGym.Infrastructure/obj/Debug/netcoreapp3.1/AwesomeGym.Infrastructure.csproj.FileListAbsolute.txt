@@ -1,0 +1,17 @@
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\bin\Debug\netcoreapp3.1\AwesomeGym.Application.dll
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\obj\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.csprojAssemblyReference.cache
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\obj\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\obj\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.AssemblyInfo.cs
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\obj\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\bin\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.deps.json
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\bin\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.runtimeconfig.json
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\bin\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.runtimeconfig.dev.json
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\bin\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.dll
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\bin\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.pdb
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\bin\Debug\netcoreapp3.1\AwesomeGym.Application.pdb
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\obj\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.csproj.CopyComplete
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\obj\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.dll
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\obj\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.pdb
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\obj\Debug\netcoreapp3.1\AwesomeGym.Infrastructure.genruntimeconfig.cache
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\bin\Debug\netcoreapp3.1\AwesomeGym.Core.dll
+C:\Users\DTI Digital\source\repos\AwesomeGym\AwesomeGym.Infrastructure\bin\Debug\netcoreapp3.1\AwesomeGym.Core.pdb
