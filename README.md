@@ -1,2 +1,2 @@
 # AwesomeGym.API
-Minha primeira API em C#, aplicando Clean Architecture com ASP.NET Core - Entity Framework. Utilizando o Postman para fazer as requests! Esse projeto foi desenvolvido durante o meu estagio na empresa "dti digital".
+Projeto realizado durante o meu estágio na dtidigital com a finalidade de apreender a Clean Architecture em ASP.NET Core - Entity Framework.  Realizado com o supervisionamento do Guilherme Brito, atualmente desenvolvedor líder na dtidigital. O meu principal foco é na organização e distribuição das responsabilidades, mas o projeto será constantemente atualizado durante o decorrer das experiências adquiridas. Utilizei o Postman para realizar as requests.
