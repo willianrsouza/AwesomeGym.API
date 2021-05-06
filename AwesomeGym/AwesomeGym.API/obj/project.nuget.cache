@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NHGnFmCehW9Jt45hC8MX/wgr+GSL81obAhN9cms4NRSkpDuzpMSKKDuWY49dHUGAc7mmCtQX2Oqpcc7HW9OC3A==",
+  "dgSpecHash": "vAINh/vTpKdYhJgAehtk6SQB0EAv6YZcbXxpy6O+uu6zZUUoLgBnon6Am+O2hKKuJVIi+Be+5nZ4zRqLsjIOCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.API\\AwesomeGym.API.csproj",
+  "projectFilePath": "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.API\\AwesomeGym.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DTI Digital\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\DTI Digital\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -1,4 +1,6 @@
-﻿using AwesomeGym.Infrastructure.Persistencia.Servicos;
+﻿using AwesomeGym.Application.InputModels;
+using AwesomeGym.Core.Entidades;
+using AwesomeGym.Infrastructure.Persistencia.Servicos;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -7,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AwesomeGym.API.Controllers
 {
-    [Route("api/funcionarios")]
+    [Route("api/funcionario")]
     public class FuncionarioController : ControllerBase
     {
 
@@ -19,13 +21,51 @@ namespace AwesomeGym.API.Controllers
 
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult GetFuncionarios()
         {
             var funcioarios = _funcionarioDbContext.Funcionario.ToList();
             return Ok(funcioarios);
 
         }
 
+        [HttpGet("{id}")]
+
+        public IActionResult GetFuncionarioById(int id)
+        {
+            var funcionario = _funcionarioDbContext.Funcionario.SingleOrDefault(p => p.id == id);
+
+            if (funcionario == null)
+            {
+                return NotFound();
+            }
+            return Ok(funcionario);
+        }
+
+        [HttpPost]
+
+        public IActionResult PostFunconario([FromBody] FuncionarioInputModel funcionarioInputModel)
+        {
+            if (funcionarioInputModel == null)
+            {
+                return NotFound();
+            }
+
+            Funcionario funcionario = new Funcionario(funcionarioInputModel.nomeFuncionario, funcionarioInputModel.funcionarioCpf);
+            _funcionarioDbContext.Funcionario.Add(funcionario);
+            _funcionarioDbContext.SaveChanges();
+
+            return Ok(funcionario);
+        }
+        [HttpDelete("{id}")]
+        public IActionResult DeleteFuncionarioById(int id)
+        {
+            var funcionario = _funcionarioDbContext.Funcionario.SingleOrDefault(p => p.id == id);
+
+            _funcionarioDbContext.Remove(funcionario);
+            _funcionarioDbContext.SaveChanges();
+            return Ok(funcionario);
+        }
+        
 
     }
 }

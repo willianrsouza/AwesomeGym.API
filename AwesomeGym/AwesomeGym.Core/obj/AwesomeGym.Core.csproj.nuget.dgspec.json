@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj": {}
+    "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj": {
+    "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj",
+        "projectUniqueName": "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj",
         "projectName": "AwesomeGym.Core",
-        "projectPath": "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj",
+        "projectPath": "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj",
         "packagesPath": "C:\\Users\\DTI Digital\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Core\\obj\\",
+        "outputPath": "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DTI Digital\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -6,9 +6,8 @@ namespace AwesomeGym.Core.Entidades
 {
    public class Funcionario
     {
-        public Funcionario(int id, string funcionarioNome, string funcionarioCpf)
+        public Funcionario(string funcionarioNome, string funcionarioCpf)
         {
-            this.id = id;
             this.funcionarioNome = funcionarioNome;
             this.funcionarioCpf = funcionarioCpf;
         }

@@ -1481,11 +1481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Infrastructure\\AwesomeGym.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Infrastructure\\AwesomeGym.Infrastructure.csproj",
       "projectName": "AwesomeGym.Infrastructure",
-      "projectPath": "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Infrastructure\\AwesomeGym.Infrastructure.csproj",
+      "projectPath": "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Infrastructure\\AwesomeGym.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\DTI Digital\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Infrastructure\\obj\\",
+      "outputPath": "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DTI Digital\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1502,11 +1502,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Application\\AwesomeGym.Application.csproj": {
-              "projectPath": "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Application\\AwesomeGym.Application.csproj"
+            "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Application\\AwesomeGym.Application.csproj": {
+              "projectPath": "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Application\\AwesomeGym.Application.csproj"
             },
-            "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj": {
-              "projectPath": "C:\\Users\\DTI Digital\\source\\repos\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj"
+            "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj": {
+              "projectPath": "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj"
             }
           }
         }

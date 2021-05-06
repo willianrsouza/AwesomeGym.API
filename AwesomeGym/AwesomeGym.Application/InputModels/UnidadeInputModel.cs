@@ -7,8 +7,8 @@ namespace AwesomeGym.Application.InputModels
     public class UnidadeInputModel
     {
 
-        public String Nome { get; set; }
-        public String EnderecoCompleto { get; set; }
+        public string Nome { get; set; }
+        public string EnderecoCompleto { get; set; }
         
 
     }

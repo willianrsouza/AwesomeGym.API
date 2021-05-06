@@ -6,10 +6,9 @@ using System.Linq;
 
 namespace AwesomeGym.API.Controllers
 {
-    [Route("api/alunos")]
+    [Route("api/aluno")]
     public class AlunoController : ControllerBase
     {
-
 
         private readonly AlunoDbContext _alunoDbContext;
 
@@ -21,15 +20,16 @@ namespace AwesomeGym.API.Controllers
 
         [HttpGet]
 
-        public IActionResult Get()
+        public IActionResult GetAlunos()
         {
             var alunos = _alunoDbContext.Alunos.ToList();
             return Ok(alunos);
         }
 
+
         [HttpGet("{id}")]
 
-        public IActionResult GetById(int id)
+        public IActionResult GetAlunosById(int id)
         {
             //SingleOrDefault  = Extensão que retorna um elemento especifico dentro de uma List
 
@@ -43,24 +43,31 @@ namespace AwesomeGym.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] AlunoInputModel alunoInputModel)
+        public IActionResult PostAlunos([FromBody] AlunoInputModel alunoInputModel)
         {
             if (alunoInputModel == null)
             {
                 return NotFound();
             }
 
-            
             Alunos aluno = new Alunos(alunoInputModel.nomeAluno, alunoInputModel.cpfAluno);
 
-            //Adicionando e Salvando a operação
             _alunoDbContext.Alunos.Add(aluno);
             _alunoDbContext.SaveChanges();
 
-            return CreatedAtAction(nameof(GetById), new { id = aluno.id }, aluno);
+            return CreatedAtAction(nameof(GetAlunosById), new { id = aluno.id }, aluno);
 
         }
 
+        [HttpDelete("{id}")]
+        public IActionResult DeleteAlunoById(int id)
+        {
+            var aluno = _alunoDbContext.Alunos.SingleOrDefault(p => p.id == id);
+            _alunoDbContext.Remove(aluno);
+            _alunoDbContext.SaveChanges();
+            return Ok(aluno);
+        }
 
-    }
+
+    } 
 }

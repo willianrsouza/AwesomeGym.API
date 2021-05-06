@@ -2,18 +2,19 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+
 using System.Text;
 
 namespace AwesomeGym.Infrastructure.Persistencia.Servicos
 {
-   public class FuncionarioDbContext : DbContext
+   public class EquipamentosDbContext : DbContext
     {
-        public FuncionarioDbContext(DbContextOptions<FuncionarioDbContext> options) : base(options)
+        public EquipamentosDbContext(DbContextOptions<EquipamentosDbContext> options) : base(options)
         {
 
         }
 
-        public DbSet<Funcionario> Funcionario { get; set; }
 
+        public DbSet<Equipamento> Equipamentos { get; set; }
     }
 }
