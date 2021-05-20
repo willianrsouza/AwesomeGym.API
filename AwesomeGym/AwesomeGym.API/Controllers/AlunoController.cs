@@ -19,7 +19,6 @@ namespace AwesomeGym.API.Controllers
 
 
         [HttpGet]
-
         public IActionResult GetAlunos()
         {
             var alunos = _alunoDbContext.Alunos.ToList();
@@ -28,7 +27,6 @@ namespace AwesomeGym.API.Controllers
 
 
         [HttpGet("{id}")]
-
         public IActionResult GetAlunosById(int id)
         {
             //SingleOrDefault  = Extensão que retorna um elemento especifico dentro de uma List
@@ -52,6 +50,7 @@ namespace AwesomeGym.API.Controllers
 
             Alunos aluno = new Alunos(alunoInputModel.nomeAluno, alunoInputModel.cpfAluno);
 
+
             _alunoDbContext.Alunos.Add(aluno);
             _alunoDbContext.SaveChanges();
 
@@ -69,5 +68,5 @@ namespace AwesomeGym.API.Controllers
         }
 
 
-    } 
+    }
 }

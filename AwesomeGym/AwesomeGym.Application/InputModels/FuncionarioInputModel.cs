@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
 namespace AwesomeGym.Application.InputModels
 {
-   public  class FuncionarioInputModel
+    public class FuncionarioInputModel
     {
-        public string nomeFuncionario { get; set; }
-        public string funcionarioCpf { get; set; }
+        public string NomeFuncionario { get; set; }
+        public string FuncionarioCpf { get; set; }
     }
 }

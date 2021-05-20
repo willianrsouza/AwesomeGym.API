@@ -2,14 +2,14 @@
 using AwesomeGym.Core.Entidades;
 using AwesomeGym.Infrastructure.Persistencia.Servicos;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace AwesomeGym.API.Controllers
 {
+
     [Route("api/funcionario")]
+    [ApiController]
+
     public class FuncionarioController : ControllerBase
     {
 
@@ -50,7 +50,7 @@ namespace AwesomeGym.API.Controllers
                 return NotFound();
             }
 
-            Funcionario funcionario = new Funcionario(funcionarioInputModel.nomeFuncionario, funcionarioInputModel.funcionarioCpf);
+            Funcionario funcionario = new Funcionario(funcionarioInputModel.NomeFuncionario, funcionarioInputModel.FuncionarioCpf);
             _funcionarioDbContext.Funcionario.Add(funcionario);
             _funcionarioDbContext.SaveChanges();
 
@@ -65,7 +65,7 @@ namespace AwesomeGym.API.Controllers
             _funcionarioDbContext.SaveChanges();
             return Ok(funcionario);
         }
-        
+
 
     }
 }

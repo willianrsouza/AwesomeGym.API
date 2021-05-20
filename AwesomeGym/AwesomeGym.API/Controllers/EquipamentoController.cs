@@ -1,5 +1,4 @@
-﻿using AwesomeGym.Application.Entidades;
-using AwesomeGym.Application.InputModels;
+﻿using AwesomeGym.Application.InputModels;
 using AwesomeGym.Core.Entidades;
 using AwesomeGym.Infrastructure.Persistencia.Servicos;
 using Microsoft.AspNetCore.Mvc;

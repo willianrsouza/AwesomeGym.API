@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vAINh/vTpKdYhJgAehtk6SQB0EAv6YZcbXxpy6O+uu6zZUUoLgBnon6Am+O2hKKuJVIi+Be+5nZ4zRqLsjIOCg==",
+  "dgSpecHash": "8GbGh6KFEuhtXGpymA+8oQ0pTe5WFv53+lQRMkC8SbUy2URnlUrScMvfAKOgMGzn1qJ3VBlUuP5GxqVjuioNxg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\AwesomeGym.API\\AwesomeGym\\AwesomeGym.API\\AwesomeGym.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DTI Digital\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\DTI Digital\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
     "C:\\Users\\DTI Digital\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\DTI Digital\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
     "C:\\Users\\DTI Digital\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",

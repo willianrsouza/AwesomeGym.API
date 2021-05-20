@@ -1,7 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="UseCases\**" />
+		<EmbeddedResource Remove="UseCases\**" />
+		<None Remove="UseCases\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Dtos\" />
+	</ItemGroup>
 
 </Project>
