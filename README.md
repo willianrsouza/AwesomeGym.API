@@ -4,11 +4,14 @@
 
 ##### Conceitos Aplicados: 
 
-- Clean Architecture em ASP.NET Core - Entity Framework.
+- Clean Architecture em ASP.NET Core
 
 ##### Ferramentas: 
+
+- Entity Framework
 - Postman
 - Git Bash
+
 
 ##### Supervisionado: 
 - Guilherme Brito - Desenvolvedor Lider 
