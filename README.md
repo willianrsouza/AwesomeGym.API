@@ -8,6 +8,7 @@
 
 ##### Ferramentas: 
 - Postman
+- Git Bash
 
 ##### Supervisionado: 
 - Guilherme Brito - Desenvolvedor Lider 
