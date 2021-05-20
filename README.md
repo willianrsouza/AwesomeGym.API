@@ -1,9 +1,13 @@
-# API - Clean Architecture - ASP.NET 5
+# AwesomeGym.API - Clean Architecture - ASP.NET 5
 
-- Projeto desempenhado durante o meu estágio na **Dti Digital** com a finalidade de apreender a Clean Architecture em ASP.NET Core - Entity Framework.  Realizado com o supervisionamento do Guilherme Brito, atualmente desenvolvedor líder na dti digital.
+- Projeto desempenhado durante estágio na **Dti Digital**.
+- 
+##### Conceitos Aplicados: 
+
+- Clean Architecture em ASP.NET Core - Entity Framework.
 
 ##### Ferramentas: 
 - Postman
 
-##### Superviosanamento: 
+##### Supervisionado: 
 - Guilherme Brito - Desenvolvedor Lider 
