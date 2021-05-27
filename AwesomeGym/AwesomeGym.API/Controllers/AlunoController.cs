@@ -6,7 +6,9 @@ using System.Linq;
 
 namespace AwesomeGym.API.Controllers
 {
+    [ApiVersion("1.0")]
     [Route("api/aluno")]
+    [ApiController]
     public class AlunoController : ControllerBase
     {
 
@@ -18,7 +20,7 @@ namespace AwesomeGym.API.Controllers
         }
 
 
-        [HttpGet]
+        [HttpGet()]
         public IActionResult GetAlunos()
         {
             var alunos = _alunoDbContext.Alunos.ToList();
@@ -26,7 +28,7 @@ namespace AwesomeGym.API.Controllers
         }
 
 
-        [HttpGet("{id}")]
+        [HttpGet("id-aluno/{id}")]
         public IActionResult GetAlunosById(int id)
         {
             //SingleOrDefault  = Extensão que retorna um elemento especifico dentro de uma List

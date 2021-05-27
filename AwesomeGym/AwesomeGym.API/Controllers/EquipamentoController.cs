@@ -6,7 +6,9 @@ using System.Linq;
 
 namespace AwesomeGym.API.Controllers
 {
+    [ApiVersion("1.0")]
     [Route("api/equipamento")]
+    [ApiController]
     public class EquipamentoController : ControllerBase
     {
 
